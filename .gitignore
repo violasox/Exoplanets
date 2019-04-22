@@ -1,6 +1,11 @@
 // Data files
 TD1.fits
 exoplanets.csv
+project.dat
 
 // Virtualenv
-exoplanet-virtual
+virtual
+
+// Python
+*.pyc
+__Pycache__
