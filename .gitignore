@@ -2,6 +2,8 @@
 TD1.fits
 exoplanets.csv
 project.dat
+figures
+*.pdf
 
 // Virtualenv
 virtual

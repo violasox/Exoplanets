@@ -16,10 +16,10 @@ for exoplanet in foundExoplanets:
     uvMag += exoplanet.uv
 
 pyplot.semilogy(uvBand, uvMag, 'bo', alpha=0.5)
-pyplot.ylabel('UV Flux [$erg cm^{-2} s^{-1} A^{-1}$]')
+pyplot.ylabel('UV Flux [$mW m^{-2} A^{-1}$]')
 pyplot.xticks([0,1,2,3], [1565,1965,2365,2740])
 pyplot.xlabel('UV band [A]')
 pyplot.title('UV flux of stars with known exoplanets')
 pyplot.tight_layout()
-pyplot.savefig('uv_distribution.pdf')
+pyplot.savefig('figures/uv_distribution.pdf')
 pyplot.show()
